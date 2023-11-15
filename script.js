@@ -28,6 +28,6 @@ function zodiacCalc(e) {
 // when we click or hit the Enter on the type="submit" button
 // this form will be submitted, more info https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit
 // All we need to do is bind your `zodiacCalc` function with that form's submit event like the glue code below.
-// TIP: we should use id to reference these html elements in html, see the reason here: https://chat.openai.com/share/55cf4d93-063e-458d-9a8b-222187007079
+// TIP: we should use id to reference these html elements in JavaScript, see the reason here: https://chat.openai.com/share/55cf4d93-063e-458d-9a8b-222187007079
 let zodiacForm = document.querySelector('#zodiacForm');
 zodiacForm.addEventListener('submit', zodiacCalc);
