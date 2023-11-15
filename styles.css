@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.title {
+    margin-top: 8rem;
+}
+.image {
+    width: 20rem;
+}
+
+.userYear, .userYearSubmit {
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.userYearSubmit {
+    width: 4rem;
+}
