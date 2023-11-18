@@ -9,7 +9,13 @@
   <body>
     <div class="content">
       <h1 class="title">Find out your Oriental Zodiac!</h1>
-      <img class="image" src="./img/zodiac.png" alt="" />
+      <img id="zodiacTable" class="image" src="./img/zodiac.png" alt="" />
+      <div id="zodiacModal" class="modal">
+        <div class="modal__inner">
+          <img id="zodiacImg" class="zodiac-image" src="" alt="" />
+          Your oriental Zodiac is <span id="zodiacResult"></span>
+        </div>
+      </div>
       <h3>Type the year you were born</h3>
       <form class="userSubmit" action="" id="zodiacForm">
         <input
@@ -20,7 +26,6 @@
         />
         <button id="button" class="userYearSubmit">Submit</button>
       </form>
-      <div id="userZodiacResult"></div>
       <p>
         It's actually called Chinese Zodiac but as it is used in countries more
         than China, I'm calling it Oriental Zodiac!
